@@ -4,13 +4,8 @@ public class Main {
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
-        StringBuilder fullNameSb = new StringBuilder();
-        String fullName =  fullNameSb.append(firstName)
-                .append(" ")
-                .append(middleName)
-                .append(" ")
-                .append(lastName)
-                .toString();
+        String fullName = lastName + " " + firstName + " " +  middleName;
+
         System.out.println("Ф.И.О. сотрудника- " + fullName);
 
         System.out.println(" Задача 2 ");
